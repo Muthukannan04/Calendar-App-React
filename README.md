@@ -2,6 +2,12 @@
 
 A modern and responsive Calendar App built with **React.js**. Users can navigate through months and years, view dates in a clean calendar layout, and easily identify the current day.
 
+
+## 🚀 Live Demo
+
+🔗 https://calendar-app-react-mk.netlify.app/
+
+
 ## Features
 
 * 📅 Monthly calendar view
