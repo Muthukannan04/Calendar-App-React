@@ -1,16 +1,84 @@
-# React + Vite
+# Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Calendar App built with **React.js**. Users can navigate through months and years, view dates in a clean calendar layout, and easily identify the current day.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📅 Monthly calendar view
+* 🔄 Change month using dropdown
+* 📆 Change year using dropdown
+* 🎯 Highlights the current date
+* 📱 Responsive and clean UI
+* ⚡ Built with React Hooks (`useState`)
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Navigate to the project folder
+
+```bash
+cd calendar-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+src/
+├── assets/
+│   ├── left-arrow.svg
+│   └── right-arrow.svg
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## How It Works
+
+* The application initializes with the current date.
+* Users can select a month and year from dropdown menus.
+* The calendar dynamically generates the correct number of days for the selected month.
+* Empty cells are added before the first day to align dates with their respective weekdays.
+* The current date is highlighted for better visibility.
+
+## Future Improvements
+
+* Previous and next month navigation buttons
+* Event reminders
+* Date selection feature
+* Dark mode support
+* Holiday highlighting
+* Local storage for events
+
+## Author
+
+**Muthukannan**
+
+Designed and developed with ❤️ using React.
+
+## License
+
+This project is open source and available under the MIT License.
